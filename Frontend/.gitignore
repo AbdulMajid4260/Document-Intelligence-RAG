@@ -1,0 +1,24 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment files (never commit real values)
+.env
+.env.local
+.env.*.local
+
+# Logs and caches
+*.log
+npm-debug.log*
+.vite/
+.cache/
+.eslintcache
+coverage/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders (optional)
+.idea/

@@ -1,0 +1,12 @@
+# OPTIONAL extras. The API works without any of these.
+#
+# sentence-transformers  -> real SEMANTIC embeddings (downloads torch + a ~90 MB model on first use).
+#                           Without it, the app uses a LEXICAL keyword-hashing fallback and says so in
+#                           /health, /api/ask ("retrieval_mode") and experiment summaries.
+# chromadb               -> use VECTOR_STORE=chroma
+# faiss-cpu              -> use VECTOR_STORE=faiss
+#
+# Install only what you want, one at a time, e.g.:   pip install chromadb
+sentence-transformers>=3.0
+chromadb>=0.5
+faiss-cpu>=1.8
